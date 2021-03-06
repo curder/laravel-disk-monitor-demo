@@ -15,6 +15,10 @@ class DiskMonitorEntry extends Model
 {
     public $guarded = [];
 
+    public $casts = [
+        'file_count' => 'integer',
+    ];
+
     /**
      * @return static|null
      */
