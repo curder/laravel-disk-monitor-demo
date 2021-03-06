@@ -4,7 +4,7 @@ namespace Curder\DiskMonitor;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Curder\DiskMonitor\Commands\DiskMonitorCommand;
+use Curder\DiskMonitor\Commands\RecordDiskMetricsCommand;
 
 class DiskMonitorServiceProvider extends PackageServiceProvider
 {
@@ -20,6 +20,6 @@ class DiskMonitorServiceProvider extends PackageServiceProvider
             ->hasConfigFile()
             ->hasViews()
             ->hasMigration('create_disk_monitors_table')
-            ->hasCommand(DiskMonitorCommand::class);
+            ->hasCommand(RecordDiskMetricsCommand::class);
     }
 }

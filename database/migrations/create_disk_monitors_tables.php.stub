@@ -14,7 +14,6 @@ class CreateDiskMonitorsTables extends Migration
             $table->string('disk_name');
             $table->unsignedBigInteger('file_count');
 
-
             $table->timestamps();
         });
     }
