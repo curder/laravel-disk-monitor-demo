@@ -36,10 +36,11 @@ return [
 ```
 
 ## Usage
+                                       
+Run follow command to record metrics
 
-```php
-$laravel-disk-monitor = new Curder\DiskMonitor();
-echo $laravel-disk-monitor->echoPhrase('Hello, Curder!');
+```bash
+php artisan disk-monitor:record-metrics 
 ```
 
 ## Testing
