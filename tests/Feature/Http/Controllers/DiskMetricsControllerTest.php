@@ -1,7 +1,6 @@
 <?php
 namespace Curder\DiskMonitor\Tests\Feature\Http\Controllers;
 
-use Curder\DiskMonitor\Http\Controllers\DiskMetricsController;
 use Curder\DiskMonitor\Tests\TestCase;
 
 class DiskMetricsControllerTest extends TestCase

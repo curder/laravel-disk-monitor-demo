@@ -22,17 +22,17 @@ class RecordDiskMetricsCommandTest extends TestCase
     }
 
     /** @test */
-     public function it_will_record_the_file_count_for_a_signal_disk(): void
-     {
-         $this->artisan(RecordDiskMetricsCommand::class)->assertExitCode(0);
-         $entry = DiskMonitorEntry::last();
-         self::assertEquals(0, $entry->file_count);
+    public function it_will_record_the_file_count_for_a_signal_disk(): void
+    {
+        $this->artisan(RecordDiskMetricsCommand::class)->assertExitCode(0);
+        $entry = DiskMonitorEntry::last();
+        self::assertEquals(0, $entry->file_count);
 
-         Storage::disk('local')->put('test.md', '# test');
-         $this->artisan(RecordDiskMetricsCommand::class)->assertExitCode(0);
-         $entry = DiskMonitorEntry::last();
-         self::assertEquals(1, $entry->file_count);
-     }
+        Storage::disk('local')->put('test.md', '# test');
+        $this->artisan(RecordDiskMetricsCommand::class)->assertExitCode(0);
+        $entry = DiskMonitorEntry::last();
+        self::assertEquals(1, $entry->file_count);
+    }
 
     /** @test */
     public function it_will_record_the_file_count_for_multiple_disk(): void
@@ -50,5 +50,4 @@ class RecordDiskMetricsCommandTest extends TestCase
         self::assertEquals('another-disk', $entries->last()->disk_name);
         self::assertEquals(1, $entries->last()->file_count);
     }
-
 }
