@@ -1,9 +1,9 @@
 # Monitor metrics of Laravel disks
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/curder/laravel-disk-monitor.svg?style=flat-square)](https://packagist.org/packages/curder/laravel-disk-monitor)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/curder/laravel-disk-monitor/run-tests?label=tests)](https://github.com/curder/laravel-disk-monitor/actions?query=workflow%3ATests+branch%3Amaster)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/curder/laravel-disk-monitor/Check%20&%20fix%20styling?label=code%20style)](https://github.com/curder/laravel-disk-monitor/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/curder/laravel-disk-monitor.svg?style=flat-square)](https://packagist.org/packages/curder/laravel-disk-monitor)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/curder/laravel-disk-monitor-demo.svg?style=flat-square)](https://packagist.org/packages/curder/laravel-disk-monitor-demo)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/curder/laravel-disk-monitor-demo/run-tests?label=tests)](https://github.com/curder/laravel-disk-monitor-demo/actions?query=workflow%3ATests+branch%3Amaster)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/curder/laravel-disk-monitor-demo/Check%20&%20fix%20styling?label=code%20style)](https://github.com/curder/laravel-disk-monitor-demo/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/curder/laravel-disk-monitor-demo.svg?style=flat-square)](https://packagist.org/packages/curder/laravel-disk-monitor-demo)
 
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
